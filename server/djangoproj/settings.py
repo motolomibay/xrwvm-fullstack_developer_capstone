@@ -9,7 +9,7 @@ SECRET_KEY =\
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-CSRF_TRUSTED_ORIGINS = ['https://*.githubpreview.dev',
+CSRF_TRUSTED_ORIGINS = ['https://*.githubpreview.dev', 'https://*.theianext-1-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai',
                         'https://*.theiadocker-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai']
 
 REST_FRAMEWORK = {
